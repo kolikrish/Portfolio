@@ -10,6 +10,6 @@ menu.addEventListener("click",() => {
 
 cross.addEventListener("click",() => {
     full.style.left = "-100%";
-    // body.style.overflow = "scroll";
+    body.style.overflow = "scroll";
 })
 
