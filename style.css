@@ -168,6 +168,14 @@ main > #content {
     padding-top: 5%;
     margin-bottom: 10%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image img {
+    width: 75%;
+    padding-right: 3%;
 }
 
 /* DESGIN SECTION STARTS FROM HERE */
