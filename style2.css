@@ -1,0 +1,146 @@
+@media (max-width:600px) {
+
+    main > nav {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 20px;
+    }
+
+    nav > #right {
+        display: none;
+    }
+
+    nav > #left > h3 {
+        display: none;
+    }
+
+    nav > #menu {
+        display: flex;
+    }
+
+    nav > #left > button {
+        transform: scale(0.8);
+        margin-left: 0;
+    }
+
+    #content > #Blur > #blurTwo {
+        top: 30%;
+        left: 0;
+    }
+
+    #content > #Blur > #blurOne {
+        bottom: 25%;
+        right: 0;
+    }
+
+    #text > #DC {
+        width: 180px;
+    }
+
+    #text > h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #text > p {
+        padding: 0 15px;
+    }
+
+    #hii-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hii-div > #IMG {
+        width: 130px;
+    }
+
+    #hii-div > #resume {
+        width: 280px;
+    }
+
+    #image img {
+        width: 100%;
+        height: auto;
+    }
+
+    #design {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    #work > h1 {
+        padding-top: 10px;
+        font-size: 40px;
+    }
+
+    #sam-img div img {
+        width: 70%;
+    }
+
+    #sam-img > #seeWork img {
+        width: 45%;
+        padding: 10% 0;
+    }
+
+    #text2 > h1 {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+
+    #skills > div {
+        width: 80%;
+        gap: 10px;
+        padding: 30px 20px;
+    }
+
+    #skills > div > img {
+        width: 15%;
+    }
+
+    #ab-msg > h1 {
+        font-size: 65px;
+    }
+
+    #ab-msg > div > img {
+        width: 50px;
+    }
+
+    #msg {
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
+    #msg > p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    #Contact {
+        padding: 0 10px;
+    }
+
+    #Contact > button {
+        padding: 13px 15px;
+    }
+
+    #collab {
+        height: 40%;
+    }
+
+    #collab > img {
+        height: 70%;
+        width: 80%;
+    }
+
+    .last-line > h2 {
+        font-size: 16px;
+    }
+
+    .last-line > i {
+        font-size: 20px;
+    }
+}
